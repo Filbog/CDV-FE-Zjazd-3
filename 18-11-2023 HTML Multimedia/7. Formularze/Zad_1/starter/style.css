@@ -1,0 +1,30 @@
+form{
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background: rgb(99, 93, 93);
+}
+
+.form-group{
+    margin-bottom: 20px; 
+    font-size: 1.2rem;       
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}

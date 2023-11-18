@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div>Najedź na mnie!</div>
 
 </body>
@@ -14,14 +16,14 @@
         width: 50px;
         height: 50px;
         background-color: #2cd116;
-        transition: width 2s, height 2s, background-color 0.5s;
+        transition: width 2s ease-out, height 2s ease-in, background-color 2s linear, border-radius 2s ease-in-out;
     }
 
     div:hover {
         width: 500px;
         height: 500px;
-        background-color: red;
-        border-radius: 5%;
+        background-color: purple;
+        /*  border-radius: 50%; */
     }
 </style>
 

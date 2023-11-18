@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7f066615b7.js" crossorigin="anonymous"> </script>
+</head>
+<header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="100" height="80">
+        <!-- Butterfly Body -->
+        <circle cx="50" cy="50" r="20" fill="gold" />
+
+        <!-- Butterfly Wings -->
+        <!-- Left Wing -->
+        <path d="M30 40 Q16 28, 10 40 T0 70 Q10 65, 30 70 Z" fill="#fff" stroke="#000" stroke-width="1" />
+        <!-- Right Wing -->
+        <path d="M70 40 Q84 28, 90 40 T100 70 Q90 65, 70 70 Z" fill="#fff" stroke="#000" stroke-width="1" />
+    </svg>
+    <h1>To miał być Złoty Znicz</h1>
+</header>
+<section class="videos">
+    <div class="video">
+        <h2>Harry Potter but in Russia</h2>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/Ah2CGR68ahY?si=cmXYHxfyJ5_HnerE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <h2>Harry Potter but in Berlin</h2>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/az7KfOQkMu0?si=Ya47kd8zwjB5_Tdx"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <h2>Harry Potter but it's Balenciaga</h2>
+        <iframe width="600" height="315" src="https://www.youtube.com/embed/iE39q-IKOzA?si=hXlc8-aoPKfyPmm4"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+</section>
+<div class="form">
+    <form>
+        <div class="form-group">
+            <label for="first-name">Imię: </label>
+            <input type="text" name="first-name" id="first-name" required>
+        </div>
+        <div class="form-group">
+            <label for="last-name">Nazwisko: </label>
+            <input type="text" name="last-name" id="last-name" required>
+        </div>
+        <div class="form-group">
+            <label for="birth">Data urodzenia: </label>
+            <input type="date" name="birth" id="birth">
+        </div>
+        <div class="form-group">
+            <span>Płeć: </span>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Męzczyzna </label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Kobieta </label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Inna </label>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+            <span>Czy akceptujesz regulamin? </span>
+            <input type="checkbox" name="accept" id="accept" required>
+            <label for="accept">Akceptuję</label>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn">Wyślij</button>
+        </div>
+
+
+    </form>
+</div>
+<footer>
+    <!-- zrobic ladny footer ze znakiem copyright -->
+    <div class="footer-element">&copy; Copyright by Filip</div>
+    <div class="footer-element" id="footer-icons">
+        <p>
+            Find us on:
+        </p>
+        <div class="icons-container">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"> </i></a>
+        </div>
+    </div>
+    <div class="footer-element">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+
+<body>
+
+</body>
+
+</html>

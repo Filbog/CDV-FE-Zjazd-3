@@ -1,0 +1,122 @@
+
+*{font-family: 'Lexend', sans-serif;}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+@keyframes flap {
+    0%, 100% {transform: scaleY(1);}
+    50% {transform: scaleY(0.8);}
+}
+
+svg path {
+    transform-origin: 50% 70%;
+    animation: flap 1s infinite ease-in-out;
+}
+
+section{
+    margin-bottom: 2rem;
+}
+
+.video{
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+input{
+    margin-left: 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: background-color 1s;
+}
+
+.btn:hover{
+    background-color: #f781da;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.footer-element{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+}
+footer a, i{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s color;
+}
+
+footer a:hover, i:hover{
+    color: grey;
+}
+
+#footer-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-brands{
+    font-size: 1.5em;
+    color: black;
+    padding-left: 8px;
+    padding-right: 8px;
+}

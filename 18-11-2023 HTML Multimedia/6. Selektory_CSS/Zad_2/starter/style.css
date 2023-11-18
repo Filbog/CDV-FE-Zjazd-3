@@ -1,0 +1,15 @@
+body{
+    margin: 100px 400px;
+}
+
+span{    
+    background: grey;
+}
+
+.hover-red:hover {
+    background-color: red;
+}
+
+.hover-blue:hover{
+    background-color: blue;
+}
