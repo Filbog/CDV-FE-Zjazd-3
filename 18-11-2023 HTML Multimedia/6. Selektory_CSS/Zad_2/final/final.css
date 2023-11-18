@@ -1,0 +1,11 @@
+.el1, .el2 {
+  background-color: gray;
+}
+
+.el1:hover {
+  background-color: red;
+}
+
+.el2:hover {
+  background-color: blue;
+}

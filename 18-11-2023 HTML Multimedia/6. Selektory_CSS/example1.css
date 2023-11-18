@@ -1,0 +1,52 @@
+.class1, .class2 {
+    color: red;
+    border: solid 1px #000000;
+    margin: 5px;
+}
+
+.class1.class2 {
+    /* elementy posiadające obie klasy */
+}
+
+.class1 .class2 {
+    /* element posiadający klasę class2, którego rodzicem (niekoniecznie bezpośrednim) jest element o klasie class1 */
+}
+
+.class1 + .class2 {
+    /* element posiadający klasę class2 i znajdujący się bezpośrednio za elementem z klasą class1 */
+}
+
+.class1 ~ .class2 {
+    /* element posiadający klasę class2 i znajdujący się za elementem z klasą class1 (niekoniecznie bezpośrednio) */
+}
+
+.class3 {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.class3::before {
+    content: "Pseudoelement ::before";
+    background-color: #afaffe;
+    color: brown;
+}
+
+.class3::after {
+    content: "Pseudoelement ::after";
+    background-color: #afaffe;
+    color: brown;
+    border: 5px dotted green;
+}
+
+.class4 {
+    border: solid black 1px;
+    color: red;
+    background-color: #bdbdbd;
+    padding: 5px;
+}
+
+.class4:hover {
+    border: solid #a6a6a6 3px;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,14 @@
+.main-title { /* css w osobnym pliku */
+    color: blue;
+}
+
+
+/*
+h1 .main-title {
+    color: red;
+}
+
+.main-title {
+    color: green !important;  /*zła praktyka! stosuj tylko w ostateczności!
+}
+*/

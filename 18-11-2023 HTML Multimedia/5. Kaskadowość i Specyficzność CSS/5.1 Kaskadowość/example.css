@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+    background-color: grey; /* <----- ten styl nie zostanie nadpisany */
+}
+
+h1 {
+    color: blue; /* kolor tekstu tagu <h1> będzie niebieski */
+}
